@@ -5,4 +5,5 @@
 ### [Сервис ремонта мобильных телефонов](https://github.com/AdukarIT/ShershovEV/tree/master/HW/Mobile)
 ### [Магазин оргтехники](https://github.com/AdukarIT/ShershovEV/tree/master/HW/Orgtech)
 ## 4. Формы. Ссылочные протоколы
-### [Форма заказа пиццы](https://github.com/AdukarIT/ShershovEV/tree/master/HW/Forms)
+### [Форма заказа пиццы](https://github.com/AdukarIT/ShershovEV/tree/master/HW/Forms/index.html)
+### [Форма отзыва](https://github.com/AdukarIT/ShershovEV/tree/master/HW/Forms/review.html)

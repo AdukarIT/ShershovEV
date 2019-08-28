@@ -1,0 +1,22 @@
+.progress {
+    width: 500px;
+    height: 25px;
+    border: 1px solid #000000;
+    position: relative;
+}
+
+.progress-bar {
+    width: 72%;
+    height: 25px;
+    background-color: #509ce2;
+    position: absolute;
+}
+
+.value {
+    font-size: 18px;
+    line-height: 25px;
+    display: block;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}

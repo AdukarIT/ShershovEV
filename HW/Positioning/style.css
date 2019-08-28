@@ -1,4 +1,6 @@
 .progress {
+    margin: 50px;
+    margin-left: 100px;
     width: 500px;
     height: 25px;
     border: 1px solid #000000;
@@ -19,4 +21,57 @@
     position: relative;
     z-index: 2;
     text-align: center;
+}
+
+.modal__window {
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 500px;
+    height: 260px;
+    border: 1px solid #000;
+}
+
+.modal__cell {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 20px;
+}
+
+.modal-header {
+    height: 33.33333%;
+    border-bottom: 1px solid #000;
+    font-size: 26px;
+    font-weight: 700;
+    color: #4d5053;
+    position: relative;
+}
+
+.cross {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.modal__body {
+    height: 33.33333%;
+    border-bottom: 1px solid #000;
+    font-size: 22px;
+    font-weight: 700;
+    color: #4d5053;
+}
+
+.close {
+    height: 33.33333%;
+    position: relative;
+}
+
+.btn {
+    position: absolute;
+    top: 22px;
+    right: 33px;
+    min-width: 60px;
+    padding: 8px 5px;
+    background-color: transparent;
+    border: #4d5053 1px solid;
 }

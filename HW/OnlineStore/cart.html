@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <title>OnlineStore</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+
+                <div class="store">
+                    <div class="store__logo">
+                        <img class="store__logo--pict" src="https://placehold.it/57/333" alt="Логотип магазина">
+                    </div>
+                    <div class="store__name">OnlineStore</div>
+                </div>
+
+                <nav class="menu">
+                    <ul class="top__menu">
+                        <li>
+                            <a href="#">Бытовая техника</a>
+                            <ul class="sub__menu">
+                                <li><a href="#">Стиральные машины</a></li>
+                                <li><a href="#">Стиральные машины</a></li>
+                                <li><a href="#">Пылесосы</a></li>
+                                <li><a href="#">Швейные, вышивальные машины</a></li>
+                                <li><a href="#">Утюги</a></li>
+                                <li><a href="#">Электровеники</a></li>
+                                <li><a href="#">Сушилки для обуви</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Техника для кухни</a>
+                            <ul class="sub__menu">
+                                <li><a href="#">Холодильники</a></li>
+                                <li><a href="#">Кухонные плиты</a></li>
+                                <li><a href="#">Морозильники</a></li>
+                                <li><a href="#">Настольные плиты</a></li>
+                                <li><a href="#">Ростеры, мини-печи</a></li>
+                                <li><a href="#">Вытяжки</a></li>
+                                <li><a href="#">Микроволновые печи</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Компьютерная техника</a>
+                            <ul class="sub__menu">
+                                <li><a href="#">Ноутбуки</a></li>
+                                <li><a href="#">Планшеты</a></li>
+                                <li><a href="#">Компьютеры, моноблоки</a></li>
+                                <li><a href="#">Игровые приставки</a></li>
+                                <li><a href="#">Серверное оборудование</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Корзина</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- /header__inner -->
+        </div>
+        <!-- /container -->
+    </header>
+
+    <div class="form__order">
+        <div class="container">
+            <fieldset class="form__inner">
+                <label>Фамилия и имя
+                    <input type="text"></label>
+                <label>Номер телефона
+                    <input type="tel"></label>
+                <label>Введите E-mail
+                    <input type="email"></label>
+
+                <div class="delivery">
+                    <p>Выберите способ доставки:</p>
+                    <label class="link" for="hider" id="clickme">Самовывоз со склада по адресу:</label>
+                    <input type="checkbox" id="hider">
+                    <div class="map__content">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31729.134621336965!2d-75.57854187494212!3d6.245033254447756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428ef4e52dddb%3A0x722fd6c39270ac72!2z0JzQtdC00LXQu9GM0LjQvSwg0JDQvdGC0YzQvtC60LjRjywg0JrQvtC70YPQvNCx0LjRjw!5e0!3m2!1sru!2sby!4v1567500007880!5m2!1sru!2sby"
+                            width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
+
+                    <label class="link" for="hider2" id="courier">Курьером по г.Минску</label>
+                    <input type="checkbox" id="hider2">
+                    <div class="courier">
+                        <textarea rows="5" cols="30" name="text" placeholder="Адрес доставки:"></textarea>
+                    </div>
+                </div>
+                <div class="order__comment">
+                    <p>Комментарий к заказу</p>
+                    <textarea rows="5" cols="30" name="text" placeholder="Введите комментарий"></textarea>
+                </div>
+
+                <div class="order__btn">
+                    <label>Я прочитал и согласен с <a class="order__btn-link" href="#">условиями доставки</a></label>
+                    <input type="checkbox">
+                    <button class="button">Подтвердить заказ</button>
+                </div>
+
+            </fieldset>
+        </div>
+        <!-- /container -->
+    </div>
+    <!-- /form__order -->
+
+    <footer class="footer">
+        <div class="container">
+
+            <div class="footer__inner">
+                <div class="footer__block">
+                    <h4 class="footer__title">Время работы:</h4>
+                    <adsress class="footer__address">
+                        <div>Вс-Чт: с 10:00 до 23:00; </div>
+                        <div>Пт-Сб: с 10:00 до 24:00</div>
+                    </adsress>
+                </div>
+                <div class="footer__block">
+                    <h4 class="footer__title">Адрес офиса</h4>
+                    <adsress class="footer__address">
+                        <div>г. Минск (пр. Независимости, 154); </div>
+                        <div>г. Брест (ул. Московская, 273B)</div>
+                    </adsress>
+                </div>
+                <div class="footer__block">
+                    <h4 class="footer__title">Связаться с нами</h4>
+                    <div class="footer__phone">
+                        <div>Тел.: +375 17 309-54-54; + 375 17 269-64-39</div>
+                        <div>Skype: Reptiloid-007</div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- /footer__inner -->
+
+        </div>
+        <!-- /container -->
+    </footer>
+
+</body>
+
+</html>

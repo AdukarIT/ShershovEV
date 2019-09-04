@@ -12,3 +12,7 @@
 ### [Сайт руководств по изучению иностранных языков](https://github.com/AdukarIT/ShershovEV/tree/master/HW/Language)
 ## 6. Основы CSS
 ### [Титульный лист реферата](https://jsfiddle.net/Eugene_Shershov/nxjf9kw5/50/)
+## 7.CSS. Позизионирование
+### [Прогресс-бар, модальное окно](https://github.com/AdukarIT/ShershovEV/tree/master/HW/Positioning)
+## 8.Float. Псевдоклассы и составные селекторы
+### [Форма заказа в интернет-магазине](https://github.com/AdukarIT/ShershovEV/tree/master/HW/OnlineStore)

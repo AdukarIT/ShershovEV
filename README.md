@@ -18,3 +18,5 @@
 ### [Форма заказа в интернет-магазине](https://github.com/AdukarIT/ShershovEV/tree/master/HW/OnlineStore)
 ## Изображения. Шрифты и иконки
 ### [ CSS. Стилистическое оформление элементов](https://github.com/AdukarIT/ShershovEV/tree/master/HW/Style%20decoration)
+## Flexbox
+### [Header для лэндинга курсов подготовки к ЦТ от Адукар] (https://github.com/AdukarIT/ShershovEV/tree/master/Flex/Adukar header)

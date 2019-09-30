@@ -1,0 +1,25 @@
+.ball__box {
+    width: 600px;
+    height: 80px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    position: relative;
+}
+
+.ball__inn {
+    width: 80px;
+    height: 100%;
+}
+
+#label-ball {
+    position: absolute;
+    right: 0;
+}
+
+#ball {
+    display: none;
+}
+
+#ball:checked~#label-ball {
+    left: 0;
+}

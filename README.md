@@ -19,4 +19,5 @@
 ## Изображения. Шрифты и иконки
 ### [CSS. Стилистическое оформление элементов](https://github.com/AdukarIT/ShershovEV/tree/master/HW/Style%20decoration)
 ## Flexbox
-### [Header для лэндинга курсов подготовки к ЦТ от Адукар](https://github.com/AdukarIT/ShershovEV/tree/master/HW/Flex)
+### [Header для лэндинга курсов подготовки к ЦТ от Адукар](https://github.com/AdukarIT/ShershovEV/tree/master/HW/Flex/Adukar%20header)
+### [Vkontakte](https://github.com/AdukarIT/ShershovEV/tree/master/HW/Flex/VK)

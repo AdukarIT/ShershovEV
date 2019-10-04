@@ -1,25 +1,98 @@
+/* ball */
+
 .ball__box {
     width: 600px;
-    height: 80px;
+    height: 100px;
     border: 1px solid #000;
-    margin: 0 auto;
+    background-color: green;
     position: relative;
+    margin: 50px auto;
 }
 
-.ball__inn {
-    width: 80px;
-    height: 100%;
-}
-
-#label-ball {
-    position: absolute;
-    right: 0;
-}
-
-#ball {
+.ball [type="checkbox"] {
     display: none;
 }
 
-#ball:checked~#label-ball {
+img {
+    display: inline-block;
+    position: absolute;
     left: 0;
+    top: 25px;
+    width: 50px;
+    transition: 2s cubic-bezier(0, 0, 0.58, 1);
+}
+
+.ball [type="checkbox"]:checked~img {
+    transform: translateX(550px) rotate(720deg);
+}
+
+
+/* fan */
+
+.fan__box {
+    width: 100px;
+    height: 100px;
+    margin: 50px auto;
+    background: url(img/68e8b5d4036c64dfd66f32fe0a01f791.png) center no-repeat;
+    background-size: cover;
+    animation: out 3s cubic-bezier(0, 0, 0.58, 1);
+}
+
+.fan__box:hover {
+    animation: in 3s cubic-bezier(0, 0, 0.58, 1);
+}
+
+@keyframes in {
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(1080deg)
+    }
+}
+
+@keyframes out {
+    0% {
+        transform: rotate(1080deg)
+    }
+    100% {
+        transform: rotate(0deg)
+    }
+}
+
+
+/* sprite */
+
+.sprite {
+    width: 66px;
+    height: 135px;
+    margin: 50px auto;
+    background: url(img/sheet.jpg) center no-repeat;
+}
+
+.sprite:hover {
+    animation: mortal .3s linear;
+    animation-delay: .2s;
+    animation-timing-function: steps(1);
+}
+
+@keyframes mortal {
+    0% {
+        background-position: 0 0;
+    }
+    20% {
+        background-position: -66px 0;
+    }
+    40% {
+        background-position: -132px 0;
+    }
+    60% {
+        background-position: -198px 0;
+    }
+    80% {
+        background-position: -264px 0;
+    }
+    100% {
+        background-position: -330px 0;
+    }
 }

@@ -1,3 +1,42 @@
+/* like */
+
+.like__box {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: rgb(140, 191, 233);
+    margin: 20px auto;
+    position: relative;
+}
+
+.like--img {
+    width: 50px;
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    filter: invert(100%);
+}
+
+.like [type="checkbox"] {
+    display: none;
+}
+
+.like__box :checked~.like--img {
+    filter: invert(0%);
+    animation: heart 2s;
+    animation-direction: alternate;
+}
+
+@keyframes heart {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.5);
+    }
+}
+
+
 /* ball */
 
 .ball__box {
@@ -13,7 +52,7 @@
     display: none;
 }
 
-img {
+.ball--img {
     display: inline-block;
     position: absolute;
     left: 0;
@@ -44,19 +83,19 @@ img {
 
 @keyframes in {
     0% {
-        transform: rotate(0deg)
+        transform: rotate(0deg);
     }
     100% {
-        transform: rotate(1080deg)
+        transform: rotate(1080deg);
     }
 }
 
 @keyframes out {
     0% {
-        transform: rotate(1080deg)
+        transform: rotate(1080deg);
     }
     100% {
-        transform: rotate(0deg)
+        transform: rotate(0deg);
     }
 }
 

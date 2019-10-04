@@ -22,4 +22,4 @@
 ### [Header для лэндинга курсов подготовки к ЦТ от Адукар](https://github.com/AdukarIT/ShershovEV/tree/master/HW/Flex/Adukar%20header)
 ### [Vkontakte](https://github.com/AdukarIT/ShershovEV/tree/master/HW/Flex/VK)
 ## Эффекты. Анимация
-### [Ball/Fan/Sprite](https://github.com/AdukarIT/ShershovEV/tree/master/HW/Anim)
+### [Like/Ball/Fan/Sprite](https://github.com/AdukarIT/ShershovEV/tree/master/HW/Anim)

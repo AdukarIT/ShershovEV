@@ -1,0 +1,15 @@
+$black: #242021;
+$main-font: 'Proxima nova Rg',
+'Arial',
+sans-serif;
+$sec-font: 'HelveticaNeueCyr',
+'Arial',
+sans-serif;
+@mixin image-property {
+    opacity: 0;
+    content: "";
+    display: block;
+    width: 323px;
+    height: 323px;
+    background-size: cover;
+}

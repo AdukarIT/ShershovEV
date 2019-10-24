@@ -23,3 +23,8 @@
 ### [Vkontakte](https://github.com/AdukarIT/ShershovEV/tree/master/HW/Flex/VK)
 ## Эффекты. Анимация
 ### [Like/Ball/Fan/Sprite](https://github.com/AdukarIT/ShershovEV/tree/master/HW/Anim)
+## Final project CSS
+### [Tattly project](https://github.com/AdukarIT/ShershovEV/tree/master/HW/Project-Tattly)
+### [Page 1](https://shershov.github.io/public/)
+### [Page 2](https://shershov.github.io/public/collections.html)
+### [Page 3](https://shershov.github.io/public/blog.html)
